@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    -------------------TransparentToolbar------------------->
+
+    <style name="TranparentToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent
+        </item>
+    </style>
+
+
+-----------------------------dialogue theme ----------------------------------------------------
+
+    <style name="MyDialogTheme" parent="AppTheme" tools:targetApi="lollipop">
+        <item name="android:dialogTheme">@style/dialogthm</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:datePickerStyle">@style/MyDatePicker</item>
+    </style>
+
+
+    <style name="dialogthm" parent="Base.V23.Theme.AppCompat"/>
+
+    <style name="MyDatePicker" parent="android:Widget.Material.Light.DatePicker" tools:targetApi="lollipop">
+        <item name="android:datePickerMode">calendar</item>
+        <item name="android:dialogTheme">@style/dialogthm</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+
+</resources>

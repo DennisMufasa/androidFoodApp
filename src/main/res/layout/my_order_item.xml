@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_15"
+    android:layout_marginRight="@dimen/dp_15"
+    android:layout_marginTop="@dimen/dp_20"
+    android:elevation="@dimen/dp_10"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/dp_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10">
+
+            <ImageView
+                android:id="@+id/plate"
+                android:layout_width="@dimen/dp_65"
+                android:layout_height="@dimen/dp_60"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:background="@drawable/plate" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:layout_toRightOf="@+id/plate"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/custId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ct ID: F035D5F5D5D5"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:text="Customer"
+                    android:textSize="@dimen/sp_12"
+                    android:textColor="@color/gray" />
+
+
+                <TextView
+                    android:id="@+id/tv_customerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sophia Jackson"
+                    android:textColor="@color/d_gray"
+                    android:textSize="@dimen/dp_15" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_inProgress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/inprogress"
+            android:padding="@dimen/dp_9"
+            android:paddingTop="@dimen/sp_10"
+            android:text="In Progress"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textSize="@dimen/sp_15" />
+
+        <TextView
+            android:id="@+id/tv_completed"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/completed"
+            android:padding="@dimen/dp_9"
+            android:paddingTop="@dimen/sp_10"
+            android:text="Completed !"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_15" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

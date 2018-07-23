@@ -1,0 +1,76 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.sats.rider.quickeats.fragments.Maps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/map_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_90"
+            android:background="@drawable/bottom_bg"
+            android:layout_alignParentBottom="true"
+           >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+               android:paddingTop="@dimen/dp_20">
+
+                <TextView
+                    android:id="@+id/cust_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sophia Jackson"
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/customer_id"
+                    android:textColor="@color/d_gray"
+                    android:layout_height="wrap_content"
+                   />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/up_arrow"
+            android:layout_alignTop="@+id/map_toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp" />
+        <!--<Button-->
+            <!--android:id="@+id/button2"-->
+            <!--android:layout_width="@dimen/dp_55"-->
+            <!--android:layout_height="@dimen/dp_55"-->
+            <!--android:background="@drawable/white_circle"-->
+            <!--android:layout_alignTop="@+id/map_toolbar"-->
+            <!--android:layout_centerHorizontal="true" />-->
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

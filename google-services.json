@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "816948563270",
+    "firebase_url": "https://quickeatsfoodrider.firebaseio.com",
+    "project_id": "quickeatsfoodrider",
+    "storage_bucket": "quickeatsfoodrider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816948563270:android:825426f06cb5a40e",
+        "android_client_info": {
+          "package_name": "com.sats.rider.quickeats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816948563270-n13s19bj9b025s4l7n1qcjg6u0dd6t9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sats.rider.quickeats",
+            "certificate_hash": "544150697fcccc46c0bdb01d1c1ac61b2e47ed29"
+          }
+        },
+        {
+          "client_id": "816948563270-4dhu07dt5j68j7f9c7jcp9v04fq8lbtb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sats.rider.quickeats",
+            "certificate_hash": "63a5074fe3a5e430253915aad56edf7e829cd760"
+          }
+        },
+        {
+          "client_id": "816948563270-p4equgbl8b2mmpmhs4j3neh4bo3ckkc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sats.rider.quickeats",
+            "certificate_hash": "2a2f416ff20de98f1710d374882fd9be5eee2335"
+          }
+        },
+        {
+          "client_id": "816948563270-fi484eaaks744n8bp96kvgueemicnnu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcaM2T-497I305LDmJ3Da8j21PCjA2kr4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816948563270-fi484eaaks744n8bp96kvgueemicnnu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
